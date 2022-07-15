@@ -1,14 +1,24 @@
 package com.iu.zerg;
+import com.iu.terran.Attacker;
 import com.iu.unit.Unit;
 
-public class Hydra extends Unit
+public class Hydra extends Unit implements Attacker
 {
-	public void move()
+	//hp, color, name
+	//움직이고 공겨
+	
+	public void move() 
 	{
-		System.out.println("이동");
+		
+		
+	}
+	public void attack()
+	{
+		
+
 	}
 	
 	
-	//hp, color, name
-	//움직이고 공겨
 }
+
+
