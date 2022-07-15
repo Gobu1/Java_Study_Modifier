@@ -4,6 +4,7 @@ import org.xml.sax.HandlerBase;
 
 import com.iu.animal.Cat;
 import com.iu.animal.Human;
+import com.iu.animal.Zoo;
 
 public class Main 
 {
@@ -17,7 +18,12 @@ public class Main
 		//human.age=500;
 		human.setAge(110);
 		human.info();
-		
+		Zoo zoo = new Zoo();
+		//zoo.price=100000;
+		//==================================
+		System.out.println(Zoo.title);
+		System.out.println(zoo.PRICE);
+		Zoo.info();
 				
 		
 	}
