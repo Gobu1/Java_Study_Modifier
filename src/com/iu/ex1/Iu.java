@@ -5,6 +5,9 @@ public class Iu
 	private String name;
 	private int age;
 	
+	//fix_study
+	private String test;
+	
 	private static Iu iu=null;
 	
 	//Setter
