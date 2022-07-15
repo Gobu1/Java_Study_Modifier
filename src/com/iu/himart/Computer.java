@@ -1,6 +1,6 @@
 package com.iu.himart;
 
-public class Computer extends himart
+public class Computer extends Product
 {
 	private String cpu="10800";
 	public Computer ()

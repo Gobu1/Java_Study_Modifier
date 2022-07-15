@@ -1,6 +1,6 @@
 package com.iu.himart;
 
-public class Tv extends himart
+public class Tv extends Product
 {
 	private String size="조텍";
 	public Tv ()

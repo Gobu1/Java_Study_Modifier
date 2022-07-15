@@ -1,6 +1,6 @@
 package com.iu.himart;
 
-public class Phone extends himart
+public class Phone extends Product
 {
 	private String product="삼성";
 	public Phone ()

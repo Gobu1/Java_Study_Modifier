@@ -19,28 +19,28 @@ public class Client
 		System.out.println("적립 포인트 : "+point);
 	}
 	
-	public void buy(Computer computer)
+	public void buy(Product product)
 	{
-		this.money=(money-computer.getPrice());
-		this.point=(point+computer.getPoint());
+		this.money=(money-product.getPrice());
+		this.point=(point+product.getPoint());
 		System.out.println("남은 잔고 : "+money);
 		System.out.println("적립 포인트 : "+point);
 	}
 	
-	public void buy(Tv tv)
-	{
-		this.money=(money-tv.getPrice());
-		this.point=(point+tv.getPoint());
-		System.out.println("남은 잔고 : "+money);
-		System.out.println("적립 포인트 : "+point);
-	}
-	public void buy(Phone phone)
-	{
-		this.money=(money-phone.getPrice());
-		this.point=(point+phone.getPoint());
-		System.out.println("남은 잔고 : "+money);
-		System.out.println("적립 포인트 : "+point);
-	}
+//	public void buy(Tv tv)
+//	{
+//		this.money=(money-tv.getPrice());
+//		this.point=(point+tv.getPoint());
+//		System.out.println("남은 잔고 : "+money);
+//		System.out.println("적립 포인트 : "+point);
+//	}
+//	public void buy(Phone phone)
+//	{
+//		this.money=(money-phone.getPrice());
+//		this.point=(point+phone.getPoint());
+//		System.out.println("남은 잔고 : "+money);
+//		System.out.println("적립 포인트 : "+point);
+//	}
 	
 		
 		

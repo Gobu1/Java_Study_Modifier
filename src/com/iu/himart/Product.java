@@ -1,6 +1,6 @@
 package com.iu.himart;
 
-public abstract class himart 
+public abstract class Product 
 {
 	private String brand;
 	private int price;
