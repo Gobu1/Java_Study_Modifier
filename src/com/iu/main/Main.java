@@ -1,37 +1,27 @@
 package com.iu.main;
-import com.iu.terran.Marine;
-import com.iu.terran.Scv;
-import com.iu.unit.Unit;
-import com.iu.zerg.Hydra;
+
+import com.iu.util.CollectionStack;
 
 public class Main 
 {
-
-	public static void main(String[] args) 
+	public static void main(String []args)
 	{
-		Marine m1 = new Marine();
-		Scv s1 = new Scv();
-		Unit unit = m1;
-		Hydra hydra = new Hydra();
+		int [] numbers = {1, 2, 3};
+		CollectionStack cs = new CollectionStack();
+		//1. com.iu.util.CollectionStack
+		//add - 새로운 숫자 추가 무조건 0번에 추가
+		//remove - 0번 인덱스 삭제
 		
-		//Marine is a Unit
-		//Scv	 is a Unit
-//		m1.setHp(30);
-//		m1.setColor(null);
-		//Unit unit = new Unit();
+		//2. com.iu.util.CollectionQue
+		//add - 새로운 숫자 추가 무조건0번에 추가
+		//remove - 마지막 인덱스 삭제
 		
-		m1.attack();
-		hydra.attack();
+		//3. com.iu.util.CollectionSet
+		//add - 새로운 숫자 추가 맨뒤에 추가(단 중복되지 않는 숫자만 추가)
+		//remove - 삭제할 숫자를 입력받아서 일치하는 숫자를 삭제
+		cs.add(numbers);
+		System.out.println(numbers);
 		
-		
-		
-//		System.out.println(unit.getHp());
-//		System.out.println(unit.getColor());
-//		System.out.println(unit.getName());
-//		
-//		m1=(Marine)unit;
-//		System.out.println(m1.getWeapon());
-//		
 	}
 
 }
